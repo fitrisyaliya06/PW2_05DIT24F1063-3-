@@ -1,0 +1,90 @@
+<style>
+        /* General Styling - Enhanced Aesthetics */
+        body { 
+            background-color: #e9ecef; /* Light, soft gray/blue background */
+            font-family: 'Inter', sans-serif; 
+            /* Min-height for vertical centering effect on shorter screens */
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px; /* Slightly wider form for better layout */
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 50px;
+            background-color: #ffffff;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); /* Stronger, softer shadow for depth */
+            border-radius: 16px; /* More rounded corners */
+            border-left: 5px solid #688ce1; /* Subtle primary color accent line */
+        }
+        
+        /* Header Styling - TARGETED BLUE COLOR */
+        .college-name {
+            color: #688ce1; /* PRIMARY BLUE COLOR for BLOOM COLLEGE */
+            font-weight: 800; /* Extra bold */
+            font-size: 2.5rem; 
+            letter-spacing: 1px;
+        }
+        .form-title {
+            color: #495057; /* Darker gray for the secondary title */
+            font-weight: 600;
+        }
+
+        .col-form-label { 
+            font-weight: 600; /* Bolder label for readability */
+            color: #495057; 
+        }
+        /* Input Field Styling */
+        .form-control, .form-select {
+            border-radius: 8px; /* Rounded inputs */
+            border-color: #ced4da;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .form-control:focus, .form-select:focus {
+            border-color: #688ce1;
+            box-shadow: 0 0 0 0.25rem rgba(104, 140, 225, 0.25); /* Custom primary focus color */
+        }
+        
+        /* Button Styling - More pronounced */
+        .btn-primary {
+            background-color: #688ce1; /* Custom primary color */
+            border-color: #688ce1;
+            font-weight: 600;
+            transition: transform 0.1s, box-shadow 0.2s;
+            border-radius: 10px;
+        }
+        .btn-primary:hover {
+            background-color: #5577cc;
+            border-color: #5577cc;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(104, 140, 225, 0.4);
+        }
+        .btn-secondary {
+            border-radius: 10px;
+        }
+
+        /* Modal Styling */
+        .modal-header-success {
+            background-color: #688ce1; 
+            color: #ffffff; 
+            border-bottom: none;
+            border-top-left-radius: 14px;
+            border-top-right-radius: 14px;
+        }
+        .modal-title { color: #ffffff; font-weight: 700; }
+        .modal-content { border-radius: 16px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); }
+
+        /* Media Query for responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-left: none; /* Hide accent line on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
